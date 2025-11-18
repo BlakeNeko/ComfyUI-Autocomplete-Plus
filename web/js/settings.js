@@ -23,6 +23,7 @@ export const settingValues = {
 
     // Auto format settings
     enableAutoFormat: true,
+    addTrailingComma: true,
 
 
     // Internal logic settings

@@ -431,5 +431,15 @@ app.registerExtension({
                 settingValues.enableAutoFormat = newVal;
             },
         },
+        {
+            id: id + '.AutoFormatter.AddTrailingComma',
+            name: 'Add Trailing Comma After Formatting',
+            type: 'boolean',
+            defaultValue: true,
+            category: [name, 'AutoFormatter', 'Add Trailing Comma After Formatting'],
+            onChange: (newVal, oldVal) => {
+                settingValues.addTrailingComma = newVal;
+            },
+        },
     ]
 });
