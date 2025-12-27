@@ -1,7 +1,10 @@
 {
   "type": "module",
   "scripts": {
-    "test": "env-cmd -e test -- jest"
+    "test": "env-cmd -e test -- jest",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint .",
+    "lint:prettier": "prettier --check ."
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
