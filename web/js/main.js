@@ -1,5 +1,4 @@
 import { app } from "/scripts/app.js";
-import { $el } from "/scripts/ui.js";
 import { ComfyWidgets } from "/scripts/widgets.js";
 import { settingValues } from "./settings.js";
 import { loadCSS } from "./utils.js";
