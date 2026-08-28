@@ -19,7 +19,8 @@
 }
 
 /* Dark Theme */
-body.dark-theme {
+body.dark-theme,
+:root.dark-theme body {
   --autocomplete-plus-text-color-cat-blue: var(--p-blue-400);
   --autocomplete-plus-text-color-cat-red: var(--p-red-400);
   --autocomplete-plus-text-color-cat-purple: var(--p-purple-400);
